@@ -19,7 +19,7 @@ private static $installed = array (
     'aliases' => 
     array (
     ),
-    'reference' => '3c02eba40eac4ce55ddf1d621759e149aaa31e63',
+    'reference' => '4afb71fbfb0117b0853183cc8d12ad3babd6f657',
     'name' => 'ben/project-kgb',
   ),
   'versions' => 
@@ -31,7 +31,7 @@ private static $installed = array (
       'aliases' => 
       array (
       ),
-      'reference' => '3c02eba40eac4ce55ddf1d621759e149aaa31e63',
+      'reference' => '4afb71fbfb0117b0853183cc8d12ad3babd6f657',
     ),
     'doctrine/instantiator' => 
     array (
@@ -167,6 +167,15 @@ private static $installed = array (
       array (
       ),
       'reference' => '12bc8879fb65aef2138b26fc633cb1e3620cffba',
+    ),
+    'psr/container' => 
+    array (
+      'pretty_version' => '2.0.2',
+      'version' => '2.0.2.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => 'c71ecc56dfe541dbd90c5360474fbc405f8d5963',
     ),
     'sebastian/cli-parser' => 
     array (
