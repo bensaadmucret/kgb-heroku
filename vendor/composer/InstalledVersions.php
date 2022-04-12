@@ -19,7 +19,7 @@ private static $installed = array (
     'aliases' => 
     array (
     ),
-    'reference' => '066573a058287101a5f90ce935250ca29369eced',
+    'reference' => '65ad63ce75428d43309273821649ebfcab249753',
     'name' => 'ben/project-kgb',
   ),
   'versions' => 
@@ -31,7 +31,7 @@ private static $installed = array (
       'aliases' => 
       array (
       ),
-      'reference' => '066573a058287101a5f90ce935250ca29369eced',
+      'reference' => '65ad63ce75428d43309273821649ebfcab249753',
     ),
     'doctrine/instantiator' => 
     array (
@@ -343,28 +343,28 @@ private static $installed = array (
     ),
     'symfony/http-client' => 
     array (
-      'pretty_version' => '5.4.x-dev',
-      'version' => '5.4.9999999.9999999-dev',
+      'pretty_version' => '6.1.x-dev',
+      'version' => '6.1.9999999.9999999-dev',
       'aliases' => 
       array (
-        0 => '9999999-dev',
       ),
-      'reference' => '88b6909f74fd1f2147e068411f71870a3b27ac56',
+      'reference' => 'a1087979c53b14442db2785cc45d514eaed1247c',
     ),
     'symfony/http-client-contracts' => 
     array (
-      'pretty_version' => '2.5.x-dev',
-      'version' => '2.5.9999999.9999999-dev',
+      'pretty_version' => 'dev-main',
+      'version' => 'dev-main',
       'aliases' => 
       array (
+        0 => '3.1.x-dev',
       ),
-      'reference' => '1a4f708e4e87f335d1b1be6148060739152f0bd5',
+      'reference' => 'c7951fd7205249c4b750ae63445d77b07f1189d9',
     ),
     'symfony/http-client-implementation' => 
     array (
       'provided' => 
       array (
-        0 => '2.4',
+        0 => '3.0',
       ),
     ),
     'symfony/http-foundation' => 
@@ -384,24 +384,6 @@ private static $installed = array (
       array (
       ),
       'reference' => '0abb51d2f102e00a4eefcf46ba7fec406d245825',
-    ),
-    'symfony/polyfill-php73' => 
-    array (
-      'pretty_version' => 'v1.25.0',
-      'version' => '1.25.0.0',
-      'aliases' => 
-      array (
-      ),
-      'reference' => 'cc5db0e22b3cb4111010e48785a97f670b350ca5',
-    ),
-    'symfony/polyfill-php80' => 
-    array (
-      'pretty_version' => 'v1.25.0',
-      'version' => '1.25.0.0',
-      'aliases' => 
-      array (
-      ),
-      'reference' => '4407588e0d3f1f52efb65fbe92babe41f37fe50c',
     ),
     'symfony/service-contracts' => 
     array (
