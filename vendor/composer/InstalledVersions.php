@@ -19,7 +19,7 @@ private static $installed = array (
     'aliases' => 
     array (
     ),
-    'reference' => '7c33ee721b8459c925c95ef056fbb565856d251a',
+    'reference' => 'f58e91dab70a6826a6705b6c2efe4004fd976984',
     'name' => 'ben/project-kgb',
   ),
   'versions' => 
@@ -31,7 +31,7 @@ private static $installed = array (
       'aliases' => 
       array (
       ),
-      'reference' => '7c33ee721b8459c925c95ef056fbb565856d251a',
+      'reference' => 'f58e91dab70a6826a6705b6c2efe4004fd976984',
     ),
     'doctrine/instantiator' => 
     array (
@@ -348,7 +348,7 @@ private static $installed = array (
       'aliases' => 
       array (
       ),
-      'reference' => 'a1087979c53b14442db2785cc45d514eaed1247c',
+      'reference' => '4544e83e1db45b3b87255c812d63b17bb95735c4',
     ),
     'symfony/http-client-contracts' => 
     array (
@@ -402,7 +402,7 @@ private static $installed = array (
       'aliases' => 
       array (
       ),
-      'reference' => '8de9f302021df18ae6622b63c53dc45db3e05b3b',
+      'reference' => '9a18d9b2f30e0f0b1bf40146ef9f8e048dd04248',
     ),
     'theseer/tokenizer' => 
     array (
