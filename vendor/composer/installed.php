@@ -6,7 +6,7 @@
     'aliases' => 
     array (
     ),
-    'reference' => '4afb71fbfb0117b0853183cc8d12ad3babd6f657',
+    'reference' => 'cf7fdfe1e9c1785dabc35df57bea7b90ad0ca757',
     'name' => 'ben/project-kgb',
   ),
   'versions' => 
@@ -18,7 +18,7 @@
       'aliases' => 
       array (
       ),
-      'reference' => '4afb71fbfb0117b0853183cc8d12ad3babd6f657',
+      'reference' => 'cf7fdfe1e9c1785dabc35df57bea7b90ad0ca757',
     ),
     'doctrine/instantiator' => 
     array (
@@ -307,6 +307,24 @@
       array (
       ),
       'reference' => 'c6c1022351a901512170118436c764e473f6de8c',
+    ),
+    'symfony/deprecation-contracts' => 
+    array (
+      'pretty_version' => 'v3.0.1',
+      'version' => '3.0.1.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '26954b3d62a6c5fd0ea8a2a00c0353a14978d05c',
+    ),
+    'symfony/http-foundation' => 
+    array (
+      'pretty_version' => 'v6.0.7',
+      'version' => '6.0.7.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => 'c816b26f03b6902dba79b352c84a17f53d815f0d',
     ),
     'symfony/polyfill-ctype' => 
     array (
