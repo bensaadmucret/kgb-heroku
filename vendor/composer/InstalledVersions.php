@@ -19,7 +19,7 @@ private static $installed = array (
     'aliases' => 
     array (
     ),
-    'reference' => '4eaff4b13f9bc168e36ff58b7138ff45f158984c',
+    'reference' => '46194b13eaa9b9148098e2aa446e17b460528d7c',
     'name' => 'ben/project-kgb',
   ),
   'versions' => 
@@ -31,7 +31,7 @@ private static $installed = array (
       'aliases' => 
       array (
       ),
-      'reference' => '4eaff4b13f9bc168e36ff58b7138ff45f158984c',
+      'reference' => '46194b13eaa9b9148098e2aa446e17b460528d7c',
     ),
     'doctrine/instantiator' => 
     array (
