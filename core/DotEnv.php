@@ -34,8 +34,8 @@ class DotEnv
             }
 
             list($name, $value) = explode('=', $line, 2);
-            $name = trim($name);
-            $value = trim($value);
+            $name = trim((string)$name);
+            $value = trim((string)$value);
 
             if (!array_key_exists($name, $_SERVER) && !array_key_exists($name, $_ENV)) {
                 putenv(sprintf('%s=%s', $name, $value));
