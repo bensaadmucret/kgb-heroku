@@ -1,0 +1,30 @@
+{
+    "name": "ben/project-kgb",
+    "authors": [
+        {
+            "name": "mohammedBensaad",
+            "email": "bensaadmucret@gmail.com"
+        }
+    ],
+    "license": "MIT",
+    "autoload": {
+        "files":["Start/boostrap.php"],
+        "psr-4": {
+            "App\\": "app/",
+            "Core\\": "core/",
+            "Stack\\": "tests/"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "symfony/http-foundation": "6.1.x-dev",
+        "psr/container": "2.0.x-dev",
+        "symfony/http-client": "9999999-dev"
+       
+        
+    },
+    "require-dev": {
+        "symfony/var-dumper": "6.1.x-dev",
+        "phpunit/phpunit": "10.0.x-dev"
+    }
+}
