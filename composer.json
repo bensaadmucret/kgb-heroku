@@ -15,17 +15,20 @@
             "Stack\\": "tests/"
         }
     },
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
+    "prefer-stable": true,
     "require": {
-        "symfony/http-foundation": "6.1.x-dev",
-        "psr/container": "2.0.x-dev",
-        "symfony/http-client": "6.1.x-dev"
-        
-       
-        
+        "php": ">=7.4.0",
+        "ext-pdo": "*",
+        "ext-pdo_mysql": "*",
+        "ext-pdo_sqlite": "*",
+        "ext-pdo_pgsql": "*",
+        "symfony/http-client": "^6.0",
+        "psr/container": "^2.0",
+        "symfony/http-foundation": "^6.0"
     },
     "require-dev": {
-        "symfony/var-dumper": "6.1.x-dev",
-        "phpunit/phpunit": "10.0.x-dev"
+        "phpunit/phpunit": "^9.5",
+        "symfony/var-dumper": "^6.0"
     }
 }

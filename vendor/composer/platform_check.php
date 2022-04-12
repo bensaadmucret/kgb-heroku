@@ -4,14 +4,19 @@
 
 $issues = array();
 
-if (!(PHP_VERSION_ID >= 80100)) {
-    $issues[] = 'Your Composer dependencies require a PHP version ">= 8.1.0". You are running ' . PHP_VERSION  .  '.';
+if (!(PHP_VERSION_ID >= 80002)) {
+    $issues[] = 'Your Composer dependencies require a PHP version ">= 8.0.2". You are running ' . PHP_VERSION  .  '.';
 }
 
 $missingExtensions = array();
 extension_loaded('dom') || $missingExtensions[] = 'dom';
+extension_loaded('filter') || $missingExtensions[] = 'filter';
 extension_loaded('json') || $missingExtensions[] = 'json';
 extension_loaded('libxml') || $missingExtensions[] = 'libxml';
+extension_loaded('pdo') || $missingExtensions[] = 'pdo';
+extension_loaded('pdo_mysql') || $missingExtensions[] = 'pdo_mysql';
+extension_loaded('pdo_pgsql') || $missingExtensions[] = 'pdo_pgsql';
+extension_loaded('pdo_sqlite') || $missingExtensions[] = 'pdo_sqlite';
 extension_loaded('phar') || $missingExtensions[] = 'phar';
 extension_loaded('tokenizer') || $missingExtensions[] = 'tokenizer';
 extension_loaded('xml') || $missingExtensions[] = 'xml';
