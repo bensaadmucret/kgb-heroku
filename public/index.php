@@ -6,7 +6,7 @@ ini_set("display_errors", 1);
 
 
 require __DIR__ . '/../vendor/autoload.php';
-require __DIR__ . '/../start/bootstrap.php';
+
 
 use App\factory\AppFactory;
 
