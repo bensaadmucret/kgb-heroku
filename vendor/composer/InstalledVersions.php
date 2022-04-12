@@ -19,7 +19,7 @@ private static $installed = array (
     'aliases' => 
     array (
     ),
-    'reference' => 'a01ebfcce02f12e4de14e179c88fb7ea03d0879a',
+    'reference' => 'e672d315fc6e7b1054050846386b0850eda1191b',
     'name' => 'ben/project-kgb',
   ),
   'versions' => 
@@ -31,7 +31,7 @@ private static $installed = array (
       'aliases' => 
       array (
       ),
-      'reference' => 'a01ebfcce02f12e4de14e179c88fb7ea03d0879a',
+      'reference' => 'e672d315fc6e7b1054050846386b0850eda1191b',
     ),
     'doctrine/instantiator' => 
     array (
@@ -182,6 +182,15 @@ private static $installed = array (
       ),
       'reference' => '12bc8879fb65aef2138b26fc633cb1e3620cffba',
     ),
+    'psr/cache' => 
+    array (
+      'pretty_version' => '3.0.0',
+      'version' => '3.0.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => 'aa5030cfa5405eccfdcb1083ce040c2cb8d253bf',
+    ),
     'psr/container' => 
     array (
       'pretty_version' => '2.0.2',
@@ -190,6 +199,15 @@ private static $installed = array (
       array (
       ),
       'reference' => 'c71ecc56dfe541dbd90c5360474fbc405f8d5963',
+    ),
+    'psr/event-dispatcher' => 
+    array (
+      'pretty_version' => '1.0.0',
+      'version' => '1.0.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => 'dbefd12671e8a14ec7f180cab83036ed26714bb0',
     ),
     'psr/http-client-implementation' => 
     array (
@@ -351,6 +369,15 @@ private static $installed = array (
       ),
       'reference' => 'c6c1022351a901512170118436c764e473f6de8c',
     ),
+    'symfony/cache-contracts' => 
+    array (
+      'pretty_version' => 'v3.0.1',
+      'version' => '3.0.1.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '1c0a181c9ee221afe4fa55b2d13fc63c5ae14348',
+    ),
     'symfony/deprecation-contracts' => 
     array (
       'pretty_version' => 'v3.0.1',
@@ -359,6 +386,15 @@ private static $installed = array (
       array (
       ),
       'reference' => '26954b3d62a6c5fd0ea8a2a00c0353a14978d05c',
+    ),
+    'symfony/event-dispatcher-contracts' => 
+    array (
+      'pretty_version' => 'v3.0.1',
+      'version' => '3.0.1.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '7bc61cc2db649b4637d331240c5346dcc7708051',
     ),
     'symfony/http-client' => 
     array (
@@ -420,6 +456,15 @@ private static $installed = array (
       array (
       ),
       'reference' => 'e517458f278c2131ca9f262f8fbaf01410f2c65c',
+    ),
+    'symfony/translation-contracts' => 
+    array (
+      'pretty_version' => 'v3.0.1',
+      'version' => '3.0.1.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => 'c4183fc3ef0f0510893cbeedc7718fb5cafc9ac9',
     ),
     'symfony/var-dumper' => 
     array (
