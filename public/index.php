@@ -5,9 +5,7 @@ ini_set("display_errors", 1);
 
 
 
-
-
-//require dirname(__DIR__) . DS . 'vendor' . DS . 'autoload.php';
+require __DIR__ . '/../vendor/autoload.php';
 
 use App\factory\AppFactory;
 
