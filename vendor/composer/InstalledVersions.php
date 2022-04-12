@@ -19,7 +19,7 @@ private static $installed = array (
     'aliases' => 
     array (
     ),
-    'reference' => '600c105398b2fedade764cbb133d5515e65e1abc',
+    'reference' => '3c02eba40eac4ce55ddf1d621759e149aaa31e63',
     'name' => 'ben/project-kgb',
   ),
   'versions' => 
@@ -31,7 +31,7 @@ private static $installed = array (
       'aliases' => 
       array (
       ),
-      'reference' => '600c105398b2fedade764cbb133d5515e65e1abc',
+      'reference' => '3c02eba40eac4ce55ddf1d621759e149aaa31e63',
     ),
     'doctrine/instantiator' => 
     array (
@@ -167,15 +167,6 @@ private static $installed = array (
       array (
       ),
       'reference' => '12bc8879fb65aef2138b26fc633cb1e3620cffba',
-    ),
-    'psr/container' => 
-    array (
-      'pretty_version' => '2.0.2',
-      'version' => '2.0.2.0',
-      'aliases' => 
-      array (
-      ),
-      'reference' => 'c71ecc56dfe541dbd90c5360474fbc405f8d5963',
     ),
     'sebastian/cli-parser' => 
     array (
@@ -320,24 +311,6 @@ private static $installed = array (
       array (
       ),
       'reference' => 'c6c1022351a901512170118436c764e473f6de8c',
-    ),
-    'symfony/deprecation-contracts' => 
-    array (
-      'pretty_version' => 'v3.0.1',
-      'version' => '3.0.1.0',
-      'aliases' => 
-      array (
-      ),
-      'reference' => '26954b3d62a6c5fd0ea8a2a00c0353a14978d05c',
-    ),
-    'symfony/http-foundation' => 
-    array (
-      'pretty_version' => 'v6.0.7',
-      'version' => '6.0.7.0',
-      'aliases' => 
-      array (
-      ),
-      'reference' => 'c816b26f03b6902dba79b352c84a17f53d815f0d',
     ),
     'symfony/polyfill-ctype' => 
     array (
