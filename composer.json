@@ -19,9 +19,7 @@
     "require": {
         "symfony/http-foundation": "6.1.x-dev",
         "psr/container": "2.0.x-dev",
-        "symfony/http-client": "6.1.x-dev",
-        "symfony/contracts": "3.1.x-dev",
-        "symfony/deprecation-contracts": "3.1.x-dev"
+        "symfony/http-client": "6.1.x-dev"
        
         
     },

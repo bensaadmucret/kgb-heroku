@@ -6,7 +6,7 @@
     'aliases' => 
     array (
     ),
-    'reference' => '46194b13eaa9b9148098e2aa446e17b460528d7c',
+    'reference' => 'f4cd7ace3af3404b0af91d8b59d10d577b12aae5',
     'name' => 'ben/project-kgb',
   ),
   'versions' => 
@@ -18,7 +18,7 @@
       'aliases' => 
       array (
       ),
-      'reference' => '46194b13eaa9b9148098e2aa446e17b460528d7c',
+      'reference' => 'f4cd7ace3af3404b0af91d8b59d10d577b12aae5',
     ),
     'doctrine/instantiator' => 
     array (
@@ -141,16 +141,6 @@
       ),
       'reference' => 'fad5015b70ca45560c07d363e350674a083dcc63',
     ),
-    'psr/cache' => 
-    array (
-      'pretty_version' => 'dev-master',
-      'version' => 'dev-master',
-      'aliases' => 
-      array (
-        0 => '3.0.x-dev',
-      ),
-      'reference' => '0a7c67d0d1c8167b342eb74339d6f961663826ce',
-    ),
     'psr/container' => 
     array (
       'pretty_version' => 'dev-master',
@@ -160,16 +150,6 @@
         0 => '2.0.x-dev',
       ),
       'reference' => 'c71ecc56dfe541dbd90c5360474fbc405f8d5963',
-    ),
-    'psr/event-dispatcher' => 
-    array (
-      'pretty_version' => 'dev-master',
-      'version' => 'dev-master',
-      'aliases' => 
-      array (
-        0 => '1.0.x-dev',
-      ),
-      'reference' => 'aa4f89e91c423b516ff226c50dc83f824011c253',
     ),
     'psr/http-client-implementation' => 
     array (
@@ -338,15 +318,7 @@
       ),
       'reference' => 'faceb449be60d7c072c0411b7eece6cc6a85bf9b',
     ),
-    'symfony/cache-contracts' => 
-    array (
-      'replaced' => 
-      array (
-        0 => '3.1.x-dev',
-        1 => 'dev-main',
-      ),
-    ),
-    'symfony/contracts' => 
+    'symfony/deprecation-contracts' => 
     array (
       'pretty_version' => 'dev-main',
       'version' => 'dev-main',
@@ -354,23 +326,7 @@
       array (
         0 => '3.1.x-dev',
       ),
-      'reference' => '9fa15152d9c647011eae058d2b3210f60171d7d0',
-    ),
-    'symfony/deprecation-contracts' => 
-    array (
-      'replaced' => 
-      array (
-        0 => '3.1.x-dev',
-        1 => 'dev-main',
-      ),
-    ),
-    'symfony/event-dispatcher-contracts' => 
-    array (
-      'replaced' => 
-      array (
-        0 => '3.1.x-dev',
-        1 => 'dev-main',
-      ),
+      'reference' => '07f1b9cc2ffee6aaafcf4b710fbc38ff736bd918',
     ),
     'symfony/http-client' => 
     array (
@@ -383,11 +339,13 @@
     ),
     'symfony/http-client-contracts' => 
     array (
-      'replaced' => 
+      'pretty_version' => 'dev-main',
+      'version' => 'dev-main',
+      'aliases' => 
       array (
         0 => '3.1.x-dev',
-        1 => 'dev-main',
       ),
+      'reference' => 'c7951fd7205249c4b750ae63445d77b07f1189d9',
     ),
     'symfony/http-client-implementation' => 
     array (
@@ -416,19 +374,13 @@
     ),
     'symfony/service-contracts' => 
     array (
-      'replaced' => 
+      'pretty_version' => 'dev-main',
+      'version' => 'dev-main',
+      'aliases' => 
       array (
         0 => '3.1.x-dev',
-        1 => 'dev-main',
       ),
-    ),
-    'symfony/translation-contracts' => 
-    array (
-      'replaced' => 
-      array (
-        0 => '3.1.x-dev',
-        1 => 'dev-main',
-      ),
+      'reference' => '77ca81f6ddb67beb5202614c1b92faf27dca7661',
     ),
     'symfony/var-dumper' => 
     array (
