@@ -38,7 +38,7 @@ class DotEnv
             $value = trim((string)$value);
 
             if (!array_key_exists($name, $_SERVER) && !array_key_exists($name, $_ENV)) {
-                putenv(sprintf('%s=%s', $name, $value));
+                putenv(sprintf('%s=%s', (string) $name, (string) $value));
                 $_ENV[$name] = $value;
                 $_SERVER[$name] = $value;
             }
