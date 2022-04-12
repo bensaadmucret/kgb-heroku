@@ -1,4 +1,4 @@
-<!--create form with bootstrap input: titre, description, nom de code, pays, agents, contacts, cibles, type de mission*-->
+
 
 
 <div class="col-12">

@@ -8,7 +8,7 @@ id INT PRIMARY KEY NOT NULL AUTO_INCREMENT,
 nom varchar(75) NOT NULL,
 prenom varchar(75) NOT NULL,
 date_naissance date NOT NULL,
-code_identification varchar(50) NOT NULL, UNIQUE KEY (code_identification),
+code_identification varchar(50) NOT NULL,
 nationalite varchar(50) NOT NULL,
 specialite varchar(150) NOT NULL,
 created_at datetime NOT NULL,
@@ -22,7 +22,7 @@ id INT PRIMARY KEY NOT NULL AUTO_INCREMENT,
 nom varchar(75) NOT NULL,
 prenom varchar(75) NOT NULL,
 date_naissance date NOT NULL,
-code_identification varchar(50) NOT NULL, UNIQUE (code_identification),
+code_identification varchar(50) NOT NULL, 
 nationalite varchar(80) NOT NULL
 
 );
@@ -34,7 +34,7 @@ id INT PRIMARY KEY NOT NULL AUTO_INCREMENT,
 nom varchar(75) NOT NULL,
 prenom varchar(75) NOT NULL,
 date_naissance date NOT NULL,
-code_identification varchar(50) NOT NULL, UNIQUE (code_identification),
+code_identification varchar(50) NOT NULL, 
 nationalite varchar(80) NOT NULL
 );
 
@@ -75,7 +75,7 @@ dateFin date NOT NULL,
 
 
 CREATE TABLE IF NOT EXISTS administrateur (
-                                                id INT PRIMARY KEY NOT NULL AUTO_INCREMENT,
+  id INT PRIMARY KEY NOT NULL AUTO_INCREMENT,
   nom varchar(75) NOT NULL,
   prenom varchar(75) NOT NULL,
   email varchar(80) NOT NULL UNIQUE,
